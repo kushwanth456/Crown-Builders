@@ -1,0 +1,50 @@
+{
+  "services": [
+    {
+      "icon": "fa-building",
+      "title": "Construction",
+      "description": "Modern and durable house construction with premium quality workmanship and elegant finishing."
+    },
+
+    {
+      "icon": "fa-couch",
+      "title": "Interior Design",
+      "description": "Luxury and aesthetic interior designs crafted for comfortable and modern living spaces."
+    },
+
+    {
+      "icon": "fa-paint-roller",
+      "title": "Exterior Design",
+      "description": "Stylish exterior elevation and premium architectural finishing for beautiful modern homes."
+    }
+  ],
+
+  "projects": [
+    {
+      "image": "/Assests/project1.jpg",
+      "title": "Modern Family House",
+      "category": "Construction"
+    },
+
+    {
+      "image": "/Assests/project2.jpg",
+      "title": "Premium Interior Design",
+      "category": "Interior Design"
+    },
+
+    {
+      "image": "/Assests/project3.jpg",
+      "title": "Modern Exterior Elevation",
+      "category": "Exterior Design"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Rahul Kumar",
+      "role": "Homeowner",
+      "image": "/Assests/user.jpg",
+      "review": "CROWN BUILDER delivered our dream home with outstanding quality, modern design and professional work."
+    }
+  ]
+}

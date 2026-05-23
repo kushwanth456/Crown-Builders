@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8"/>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>CROWN BUILDER</title>
+
+  <!-- GOOGLE FONT -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- FONT AWESOME -->
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+
+  <div class="cursor"></div>
+
+  <!-- NAVBAR -->
+
+  <header class="navbar">
+
+    <div class="logo">
+
+      <img src="./assets/logo.png" alt="logo">
+
+      <div>
+
+        <h2>CROWN</h2>
+        <span>BUILDER</span>
+
+      </div>
+
+    </div>
+
+    <nav id="navMenu">
+
+      <a href="index.html">Home</a>
+
+      <a href="#about">About</a>
+
+      <a href="projects.html">Projects</a>
+
+    </nav>
+
+    <div class="nav-right">
+
+      <div class="contact-mini">
+
+        <i class="fa-solid fa-phone"></i>
+
+        <span>+91 7675830896</span>
+
+      </div>
+
+      <button
+        class="gold-btn"
+        id="contactBtn"
+      >
+
+        Contact Us
+
+      </button>
+
+      <div class="menu-toggle" id="menuToggle">
+
+        <i class="fa-solid fa-bars"></i>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- CONTACT MODAL -->
+
+  <div class="quote-modal" id="quoteModal">
+
+    <div class="quote-box">
+
+      <span
+        class="close-modal"
+        id="closeModal"
+      >
+
+        ×
+
+      </span>
+
+      <h2>Contact CROWN BUILDER</h2>
+
+      <div class="quote-options">
+
+        <!-- WHATSAPP -->
+
+        <a
+          href="https://wa.me/917675830896?text=Hello%20CROWN%20BUILDER,%20I%20would%20like%20to%20discuss%20my%20construction/interior/exterior%20project.%20Please%20share%20more%20details."
+          target="_blank"
+          class="quote-option"
+        >
+
+          <i class="fa-brands fa-whatsapp"></i>
+
+          <h3>Message On WhatsApp</h3>
+
+          <p>
+
+            Chat instantly with us regarding your project
+
+          </p>
+
+        </a>
+
+        <!-- FORM -->
+
+        <a
+          href="form.html"
+          class="quote-option"
+        >
+
+          <i class="fa-solid fa-file-lines"></i>
+
+          <h3>Fill Project Form</h3>
+
+          <p>
+
+            Submit your project details professionally
+
+          </p>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <img
+      src="./assets/hero.jpg"
+      class="hero-bg"
+      alt="hero"
+    >
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-gradient"></div>
+
+    <div class="hero-content">
+
+      <span class="mini-title">
+
+        BUILDING TOMORROW, TODAY
+
+      </span>
+
+      <h1>
+
+        We Build <br>
+
+        <span>Your Dream</span> <br>
+
+        Home Into Reality
+
+      </h1>
+
+      <p>
+
+        CROWN BUILDER specializes in modern house
+        construction, interior design and exterior
+        design with premium quality, elegance and
+        trusted craftsmanship.
+
+      </p>
+
+      <div class="hero-buttons">
+
+        <button
+          class="gold-btn"
+          id="heroContactBtn"
+        >
+
+          Contact Us
+
+        </button>
+
+        <button
+          class="outline-btn"
+          onclick="window.location.href='projects.html'"
+        >
+
+          View Projects
+
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- FLOATING STATS -->
+
+    <div class="floating-stats">
+
+      <div class="floating-card">
+
+        <i class="fa-solid fa-building"></i>
+
+        <div>
+
+          <h2>5+</h2>
+
+          <p>Years In Construction</p>
+
+        </div>
+
+      </div>
+
+      <div class="floating-card">
+
+        <i class="fa-solid fa-pen-ruler"></i>
+
+        <div>
+
+          <h2>8+</h2>
+
+          <p>Interior & Exterior Design</p>
+
+        </div>
+
+      </div>
+
+      <div class="floating-card">
+
+        <i class="fa-solid fa-heart"></i>
+
+        <div>
+
+          <h2>5</h2>
+
+          <p>Happy Clients</p>
+
+        </div>
+
+      </div>
+
+      <div class="floating-card">
+
+        <i class="fa-solid fa-star"></i>
+
+        <div>
+
+          <h2>100%</h2>
+
+          <p>Client Satisfaction</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section
+    class="about section-spacing"
+    id="about"
+  >
+
+    <div class="about-text">
+
+      <span class="section-mini">
+
+        ABOUT US
+
+      </span>
+
+      <h2>
+
+        Premium Construction
+        With Elegant Design
+
+      </h2>
+
+      <p>
+
+        CROWN BUILDER creates modern homes with
+        exceptional craftsmanship, elegant interiors,
+        stylish exteriors and premium quality finishing.
+
+      </p>
+
+      <div class="about-features">
+
+        <div class="feature-item">
+
+          <i class="fa-solid fa-circle-check"></i>
+
+          <span>Modern House Construction</span>
+
+        </div>
+
+        <div class="feature-item">
+
+          <i class="fa-solid fa-circle-check"></i>
+
+          <span>Luxury Interior Design</span>
+
+        </div>
+
+        <div class="feature-item">
+
+          <i class="fa-solid fa-circle-check"></i>
+
+          <span>Premium Exterior Design</span>
+
+        </div>
+
+        <div class="feature-item">
+
+          <i class="fa-solid fa-location-dot"></i>
+
+          <span>
+
+            S.V.P. Colony,
+            Vasundra Nagar,
+            Tiruchanur,
+            Tirupati,
+            Andhra Pradesh
+
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="about-image-wrap">
+
+      <img
+        src="./assets/about.jpg"
+        class="about-image"
+        alt="about"
+      >
+
+      <div class="experience-box">
+
+        <h2>8+</h2>
+
+        <p>Years Design Experience</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services section-spacing">
+
+    <div class="section-heading">
+
+      <span class="section-mini">
+
+        OUR SERVICES
+
+      </span>
+
+      <h2>
+
+        Comprehensive Construction Solutions
+
+      </h2>
+
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+
+        <i class="fa-solid fa-building"></i>
+
+        <h3>Construction</h3>
+
+        <p>
+
+          Modern and durable house construction
+          with premium quality workmanship.
+
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <i class="fa-solid fa-couch"></i>
+
+        <h3>Interior Design</h3>
+
+        <p>
+
+          Elegant and aesthetic interiors crafted
+          for luxurious modern living.
+
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <i class="fa-solid fa-paint-roller"></i>
+
+        <h3>Exterior Design</h3>
+
+        <p>
+
+          Stylish exterior elevation and modern
+          architectural finishing.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+
+  <section class="cta">
+
+    <div class="cta-overlay"></div>
+
+    <div class="cta-content">
+
+      <span>
+
+        READY TO BUILD YOUR DREAM?
+
+      </span>
+
+      <h2>
+
+        Let's Build Something Great Together
+
+      </h2>
+
+      <button
+        class="gold-btn"
+        onclick="window.location.href='form.html'"
+      >
+
+        Contact Us
+
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-grid">
+
+      <div>
+
+        <div class="footer-logo">
+
+          <img src="./assets/logo.png">
+
+          <div>
+
+            <h3>CROWN</h3>
+            <span>BUILDER</span>
+
+          </div>
+
+        </div>
+
+        <p>
+
+          Premium construction company specializing
+          in modern house construction, interior
+          and exterior design.
+
+        </p>
+
+      </div>
+
+      <div>
+
+        <h4>Quick Links</h4>
+
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="form.html">Contact</a>
+
+      </div>
+
+      <div>
+
+        <h4>Services</h4>
+
+        <a href="#">Construction</a>
+        <a href="#">Interior Design</a>
+        <a href="#">Exterior Design</a>
+
+      </div>
+
+      <div>
+
+        <h4>Contact</h4>
+
+        <p>+91 7675830896</p>
+
+        <p>crownbuilder896@gmail.com</p>
+
+        <p>
+
+          S.V.P. Colony,
+          Vasundra Nagar,
+          Tiruchanur,
+          Tirupati,
+          Andhra Pradesh
+
+        </p>
+
+        <p>Pincode: 517503</p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- GSAP -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
